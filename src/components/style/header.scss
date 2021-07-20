@@ -1,0 +1,35 @@
+$gray: #222222;
+$blue: #0096EA;
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px !important;
+
+    &-nav{
+        display: flex;
+        align-items: center;
+
+        &--item{
+            margin-left: 30px;
+
+            a{
+                display: flex;
+                align-items: center;
+                color: $gray;
+                
+                & span{
+                    font-size: 18px;
+                    margin-right: 10px;
+                    margin-top: 5px;
+                }
+
+                & svg:hover{
+                    fill: $blue;
+                }
+            }
+            
+        }
+    }
+}

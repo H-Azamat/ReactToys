@@ -1,0 +1,18 @@
+$gray: #222222;
+$blue: #0096EA;
+
+.main{
+    margin-top: 80px;
+
+    &-title{
+        font-size: 40px;
+        line-height: 119.7%;
+        max-width: 1160px;
+        margin: 0 auto;
+    }
+
+    & .products{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,77 @@
+$gray: #222222;
+$blue: #0096EA;
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: $gray;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    .container{    
+        max-width: 1160px;
+        margin: 0 auto;
+    }
+}
+
+.btn{
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    background: $blue;
+    color: #fff;
+    width: 215px;
+    height: 50px;
+    border-radius: 32px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 119.7%;
+    box-shadow: -5px 5px 11px rgba(0, 150, 234, 0.33);
+    transition: all 0.2s ease-in-out;
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+
+    &:hover{
+      transform: translateY(-5px);
+    }
+
+    &-outline{
+        background-color: transparent;
+        border: 1px solid $blue;
+        color: $blue;
+        box-shadow: none;
+
+        &:hover{
+            background-color: $blue;
+            border: none;
+            color: white;
+            transform: none;
+        }
+    }
+
+    &-product{
+        width: 165px;
+        height: 45px;
+    }
+}
