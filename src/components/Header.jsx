@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 import './style/header.scss'
 import { logo } from '../assets/img'
@@ -6,11 +7,11 @@ import { logo } from '../assets/img'
 function Header() {
     return (
         <header className="container header">
-            <img src={logo} alt="ReactToys" className="header-logo" />
+            <NavLink to='/'><img src={logo} alt="ReactToys" className="header-logo" /></NavLink>
 
             <ul className="header-nav">
                 <li className="header-nav--item">
-                    <a href="cart.html">
+                    <NavLink to="/cart">
                         <span>3000 ₽</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="#222222">
                             <path
@@ -22,10 +23,10 @@ function Header() {
                             <path
                                 d="M25.8587 4.14758C25.7513 4.0266 25.5976 3.95655 25.4348 3.95655H5.08696C4.77496 3.95655 4.52173 4.20979 4.52173 4.52179C4.52173 4.83379 4.77496 5.08697 5.08696 5.08697H24.795L23.9912 11.5146C23.885 12.3613 23.1615 13 22.308 13H6.78262C6.47062 13 6.21738 13.2532 6.21738 13.5652C6.21738 13.8772 6.47062 14.1305 6.78262 14.1305H22.308C23.7301 14.1305 24.9363 13.0667 25.1126 11.6548L25.9955 4.59184C26.0158 4.43128 25.9661 4.2685 25.8587 4.14758Z" />
                         </svg>
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="header-nav--item">
-                    <a href="/profile">
+                    <NavLink to="/profile">
                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
                             fill="#222222">
                             <path
@@ -33,7 +34,7 @@ function Header() {
                             <path
                                 d="M14 15.4C16.5732 15.4 18.6667 13.3065 18.6667 10.7334C18.6667 8.1602 16.5732 6.06665 14 6.06665C11.4268 6.06665 9.33337 8.16014 9.33337 10.7333C9.33337 13.3065 11.4268 15.4 14 15.4ZM14 7C16.0585 7 17.7334 8.67486 17.7334 10.7334C17.7334 12.7918 16.0585 14.4667 14 14.4667C11.9415 14.4667 10.2667 12.7918 10.2667 10.7334C10.2667 8.67486 11.9415 7 14 7Z" />
                         </svg>
-                    </a>
+                    </NavLink>
                 </li>
             </ul>
         </header>

@@ -36,6 +36,10 @@ $blue: #0096EA;
         font-size: 19px;
         line-height: 119.7%;
         margin-bottom: 11px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
 
     &--description{

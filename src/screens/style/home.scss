@@ -15,4 +15,13 @@ $blue: #0096EA;
         display: flex;
         flex-wrap: wrap;
     }
+
+    & .product-loading{
+        margin-bottom: 20px;
+        
+        &:nth-child(3n+2){
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+    }
 }

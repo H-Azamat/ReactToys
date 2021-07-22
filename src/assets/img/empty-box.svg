@@ -22,9 +22,9 @@
 	.st16{fill:#A57746;}
 	.st17{fill:#E2C18D;}
 	.st18{enable-background:new    ;}
-	.st19{clip-path:url(#SVGID_8_);}
+	.st19{clipPath:url(#SVGID_8_);}
 	.st20{fill:#333333;}
-	.st21{clip-path:url(#SVGID_10_);}
+	.st21{clipPath:url(#SVGID_10_);}
 	.st22{opacity:0.8;fill:#EAD3BA;}
 	.st23{fill:#DAC5AE;}
 	.st24{fill:#37322C;}
@@ -39,7 +39,7 @@
 			<clipPath id="SVGID_2_">
 				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 			</clipPath>
-			<g style="clip-path:url(#SVGID_2_);">
+			<g style="clipPath:url(#SVGID_2_);">
 				
 					<image style="overflow:visible;" width="202" height="108" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMoAAABsCAYAAAArIC1bAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAEX1JREFUeNrsnemSHEcRxyt7jt21
